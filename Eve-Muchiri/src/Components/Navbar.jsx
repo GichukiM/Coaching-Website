@@ -52,11 +52,11 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-4 md:ml-auto">
-            <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Home</Link>
-            <Link to="/about" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">About</Link>
-            <Link to="/services" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Services</Link>
-            <Link to="/products" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Products</Link>
-            <Link to="/contact" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Contact</Link>
+            <Link to="/" className="text-white hover:text-gray-300 px-3 py-2 rounded-md">Home</Link>
+            <Link to="/about" className="text-white hover:text-gray-300 px-3 py-2 rounded-md">About</Link>
+            <Link to="/services" className="text-white hover:text-gray-300 px-3 py-2 rounded-md">Services</Link>
+            <Link to="/products" className="text-white hover:text-gray-300 px-3 py-2 rounded-md">Products</Link>
+            <Link to="/contact" className="text-white hover:text-gray-300 px-3 py-2 rounded-md">Contact</Link>
             <button id='book-eve' className='p-2 bg-blue-600 text-white hover:bg-blue-700 rounded-md'>
               <Link to="/booking">BOOK EVE</Link>
             </button>
