@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import 'flowbite';
 
 function Navbar() {
@@ -25,9 +26,9 @@ function Navbar() {
       <nav className="bg-gray-900 left-0 w-full z-50 shadow-md">
         <div className="max-w-screen-xl mx-auto p-4 flex items-center justify-between">
           {/* Name on the left */}
-          <a href="#" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3">
             <span className="self-center text-2xl font-bold italic font-chopin whitespace-nowrap text-white">EVE MUCHIRI</span>
-          </a>
+          </Link>
 
           {/* Button on the right (mobile menu toggle) */}
           <button 
@@ -51,13 +52,13 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-4 md:ml-auto">
-            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Home</a>
-            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">About</a>
-            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Services</a>
-            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Products</a>
-            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Contact</a>
+            <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Home</Link>
+            <Link to="/about" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">About</Link>
+            <Link to="/services" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Services</Link>
+            <Link to="/products" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Products</Link>
+            <Link to="/contact" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Contact</Link>
             <button id='book-eve' className='p-2 bg-blue-600 text-white hover:bg-blue-700 rounded-md'>
-              <a href="">BOOK EVE</a>
+              <Link to="/booking">BOOK EVE</Link>
             </button>
           </div>
         </div>
@@ -67,28 +68,28 @@ function Navbar() {
       <div className={`fixed left-0 w-full h-[calc(100vh-4rem)] bg-gray-900 z-40 transition-transform duration-300 ${isDropdownOpen ? "translate-y-0" : "translate-y-full"} overflow-y-auto md:hidden`}>
         <ul className="flex flex-col items-center font-medium space-y-4 p-4">
           <li className='w-full'>
-            <a href="#" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Home</a>
+            <Link to="/" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Home</Link>
           </li>
 
           <li className='w-full'>
-            <a href="#" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">About</a>
+            <Link to="/about" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">About</Link>
           </li>
 
           <li className='w-full'>
-            <a href="#" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Services</a>
+            <Link to="/services" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Services</Link>
           </li>
 
           <li className='w-full'>
-            <a href="#" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Products</a>
+            <Link to="/products" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Products</Link>
           </li>
 
           <li className='w-full'>
-            <a href="#" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Contact</a>
+            <Link to="/contact" className="flex items-center justify-center w-full py-4 px-4 text-white bg-gray-700 hover:bg-gray-600 rounded-md transition-colors" aria-current="page">Contact</Link>
           </li>
 
           <li className='w-full'>
             <button id='book-eve' className='p-4 w-full bg-blue-600 text-white hover:bg-blue-700 rounded-md transition-colors'>
-              <a href="">BOOK EVE</a>
+              <Link to="/booking">BOOK EVE</Link>
             </button>
           </li>
         </ul>
