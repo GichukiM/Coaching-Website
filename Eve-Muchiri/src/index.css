@@ -22,6 +22,20 @@ background: linear-gradient(90deg, rgba(244,0,0,1) 0%, rgba(50,50,78,1) 60%, rgb
   background: linear-gradient(270deg, rgba(244,0,0,1) 0%, rgba(50,50,78,1) 60%, rgba(25,25,56,1) 100%);
 }
 
+#S-button:hover {
+  background: linear-gradient(270deg, rgba(244,0,0,1) 0%, rgba(50,50,78,1) 60%, rgba(25,25,56,1) 100%);
+}
+
+#S-buttons {
+  background: linear-gradient(270deg, rgba(244,0,0,1) 0%, rgba(50,50,78,1) 60%, rgba(25,25,56,1) 100%);
+  color: white;
+}
+
+#S-buttons:hover {
+  background: none;
+  color: rgb(5, 5, 5);
+}
+
 #hero-home {
   background-image: url(./assets/home-hero-2.JPG);
   background-position: center;

@@ -3,7 +3,7 @@ import imagePath from '../assets/yr-coach.JPG';
 
 function AboutHome() {
   return (
-    <div className="flex flex-col md:flex-row w-full items-center bg-white shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700" id='home-about'>
+    <div className="flex flex-col md:flex-row w-full items-center bg-white shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
       <div className="w-full md:w-1/3 p-4 md:p-0 flex items-center">
         <img 
           className="w-full h-[50vh] md:h-[100vh] object-cover" 
@@ -11,7 +11,7 @@ function AboutHome() {
           alt="Descriptive text for the image" 
         />
       </div>
-      <div className="w-full md:w-2/3 p-8 flex flex-col justify-center text-white">
+      <div className="w-full md:w-2/3 p-8 flex flex-col justify-center text-gray-700">
         <h5 className="mb-4 text-3xl font-bold tracking-tight">
           Uncover Your Potential with Eve
         </h5>
