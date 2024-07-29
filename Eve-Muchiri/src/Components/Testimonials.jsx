@@ -41,51 +41,51 @@ function Testimonials() {
         <div className="flex h-full items-center justify-center transition-transform duration-500 ease-in-out">
           {/* Item 1 */}
           <div className="w-full flex-shrink-0 flex items-center justify-center p-6 text-white hidden" data-carousel-item>
-            <div className="flex flex-col items-center justify-center w-1/2 mx-auto">
-              <FaQuoteLeft className="text-6xl text-gray-400 mb-4" />
+            <div className="flex flex-col items-center justify-center w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
+              <FaQuoteLeft className="text-4xl sm:text-5xl lg:text-6xl text-gray-400 mb-4" />
               <blockquote className="text-center">
-                <p className="text-xl italic font-semibold mb-4">“Eve has been a transformative influence in my life. Her guidance helped me discover my true potential and achieve my goals.”</p>
-                <cite className="text-lg font-bold text-gray-300">- Alex Johnson</cite>
+                <p className="text-base sm:text-lg lg:text-xl italic font-semibold mb-4">“Eve has been a transformative influence in my life. Her guidance helped me discover my true potential and achieve my goals.”</p>
+                <cite className="text-sm sm:text-base lg:text-lg font-bold text-gray-300">- Alex Johnson</cite>
               </blockquote>
             </div>
           </div>
           {/* Item 2 */}
           <div className="w-full flex-shrink-0 flex items-center justify-center p-6 text-white hidden" data-carousel-item>
-            <div className="flex flex-col items-center justify-center w-1/2 mx-auto">
-              <FaQuoteLeft className="text-6xl text-gray-400 mb-4" />
+            <div className="flex flex-col items-center justify-center w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
+              <FaQuoteLeft className="text-4xl sm:text-5xl lg:text-6xl text-gray-400 mb-4" />
               <blockquote className="text-center">
-                <p className="text-xl italic font-semibold mb-4">“The workshops led by Eve were enlightening. I gained valuable skills and met wonderful people on the same journey.”</p>
-                <cite className="text-lg font-bold text-gray-300">- Maria Gomez</cite>
+                <p className="text-base sm:text-lg lg:text-xl italic font-semibold mb-4">“The workshops led by Eve were enlightening. I gained valuable skills and met wonderful people on the same journey.”</p>
+                <cite className="text-sm sm:text-base lg:text-lg font-bold text-gray-300">- Maria Gomez</cite>
               </blockquote>
             </div>
           </div>
           {/* Item 3 */}
           <div className="w-full flex-shrink-0 flex items-center justify-center p-6 text-white hidden" data-carousel-item>
-            <div className="flex flex-col items-center justify-center w-1/2 mx-auto">
-              <FaQuoteLeft className="text-6xl text-gray-400 mb-4" />
+            <div className="flex flex-col items-center justify-center w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
+              <FaQuoteLeft className="text-4xl sm:text-5xl lg:text-6xl text-gray-400 mb-4" />
               <blockquote className="text-center">
-                <p className="text-xl italic font-semibold mb-4">“Eve's career coaching helped me navigate a major transition in my professional life. Her insights were invaluable.”</p>
-                <cite className="text-lg font-bold text-gray-300">- James Smith</cite>
+                <p className="text-base sm:text-lg lg:text-xl italic font-semibold mb-4">“Eve's career coaching helped me navigate a major transition in my professional life. Her insights were invaluable.”</p>
+                <cite className="text-sm sm:text-base lg:text-lg font-bold text-gray-300">- James Smith</cite>
               </blockquote>
             </div>
           </div>
           {/* Item 4 */}
           <div className="w-full flex-shrink-0 flex items-center justify-center p-6 text-white hidden" data-carousel-item>
-            <div className="flex flex-col items-center justify-center w-1/2 mx-auto">
-              <FaQuoteLeft className="text-6xl text-gray-400 mb-4" />
+            <div className="flex flex-col items-center justify-center w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
+              <FaQuoteLeft className="text-4xl sm:text-5xl lg:text-6xl text-gray-400 mb-4" />
               <blockquote className="text-center">
-                <p className="text-xl italic font-semibold mb-4">“Participating in Eve's wellness program has been a game-changer for me. I feel more balanced and less stressed.”</p>
-                <cite className="text-lg font-bold text-gray-300">- Sarah Lee</cite>
+                <p className="text-base sm:text-lg lg:text-xl italic font-semibold mb-4">“Participating in Eve's wellness program has been a game-changer for me. I feel more balanced and less stressed.”</p>
+                <cite className="text-sm sm:text-base lg:text-lg font-bold text-gray-300">- Sarah Lee</cite>
               </blockquote>
             </div>
           </div>
           {/* Item 5 */}
           <div className="w-full flex-shrink-0 flex items-center justify-center p-6 text-white hidden" data-carousel-item>
-            <div className="flex flex-col items-center justify-center w-1/2 mx-auto">
-              <FaQuoteLeft className="text-6xl text-gray-400 mb-4" />
+            <div className="flex flex-col items-center justify-center w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
+              <FaQuoteLeft className="text-4xl sm:text-5xl lg:text-6xl text-gray-400 mb-4" />
               <blockquote className="text-center">
-                <p className="text-xl italic font-semibold mb-4">“Eve's personalized approach makes her coaching truly effective. I've seen remarkable improvements in my personal and professional life.”</p>
-                <cite className="text-lg font-bold text-gray-300">- Michael Brown</cite>
+                <p className="text-base sm:text-lg lg:text-xl italic font-semibold mb-4">“Eve's personalized approach makes her coaching truly effective. I've seen remarkable improvements in my personal and professional life.”</p>
+                <cite className="text-sm sm:text-base lg:text-lg font-bold text-gray-300">- Michael Brown</cite>
               </blockquote>
             </div>
           </div>
@@ -109,7 +109,7 @@ function Testimonials() {
         </span>
       </button>
     </div>
-  )
+  );
 }
 
 export default Testimonials;

@@ -57,18 +57,20 @@ function Hero() {
       }}
     >
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-white mb-4">
           {displayedMessage}
           <span className={`cursor ${blink ? 'opacity-100' : 'opacity-0'}`}>|</span>
         </h1>
-        <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48">
-        Discover personalized coaching to elevate your personal growth journey. Start transforming your life today with Eve's expert guidance.
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-8 px-4 sm:px-8 lg:px-16">
+          Discover personalized coaching to elevate your personal growth journey. Start transforming your life today with Eve's expert guidance.
         </p>
-        <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
-        <button id='book-eve' className='p-4 rounded-full text-white hover:bg-gray-100'>
-          <a href="">BOOK EVE</a>
-        </button>
-      </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+          <a href="#">
+            <button id='book-eve' className='p-3 sm:p-4 rounded-full text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 transition-colors duration-300'>
+              BOOK EVE
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );
